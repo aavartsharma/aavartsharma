@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jsnotsite</title>
+    <link rel="stylesheet" href="jsnote.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <div>
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Go</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <h1>Js Notesite</h1>
+    <div id ="imgjs"><img  src = "jspg.png" alt="js"></div>
+    <section class = "sections" id = "sec47"><!--ep 47-->
+        
+        <div id="ep-47" class="epnumtell">Episode 47- link the script</div>
+        <div id="para47" class = "minfoc">
+            <div class = "fisth"><h3>how to link Js to html</h3></div>
+            <ol class="fisth">
+                <li>In &lt;body&gt; tag use &lt;script&gt; tag to write js</li>
+                <li>In &lt;body&gt; tag use &lt;script src = "your.js"&gt; tag to connect js file to html</li>
+            </ol>
+            <div class = "fisth"><h3>how to write something in console</h3></div>
+            <div class = "fisthx2"> console.log(); </div>
+        </div>
+        <button id ="ep-47button" class = "buttons" onclick="hide('para47','ep-47button','ep-47a','sec47')"><a href="#para47" id = "ep-47a">Read more</a></button>
+    </section><!-- ep-47 ends -->
+    
+    <section class = "sections" id = "sec48"><!--ep 48-->
+        <div id="ep-48" class="epnumtell">Episode 48- variable in js</div>
+        <div id="para48" class="minfoc">
+            <div class = "fisth"><h3>How to decler a veriable in Js</h3></div>
+                <div class = "fisthx2"> var a = 23; //but not recommanded </div>
+            <div class = "fisth"><h3>Operators in Js</h3></div>
+                <ol class = "fisth">
+                    <li>Unary operator- operators with single operand for ex. -0 or x = -x</li>
+                    <li>Binary operator- operators with two opperands for ex. x = x + 6</li>
+                </ol>
+            <div class = "fisth"><h3>Binary operator with strings</h3></div>
+                <ol class="fisth codecage">
+                    <li>var num1 = 56;</li>
+                    <li>var num2 = 67;</li>
+                    <li></li>
+                    <li>console.log("value of " + (num1 + num2));</li>
+                </ol>
+                <!--not finsed see note copy--> 
+        </div>
+        <button id ="ep-48button" class = "buttons" onclick="hide('para48','ep-48button','ep-48a','sec48')"><a href="#para48" id = "ep-48a">Read more</a></button>
+    </section><!-- ep-48 ends -->
+
+    <section class = "sections" id = "sec49"><!--ep 49-->
+        <div id="ep-49" class="epnumtell">Episode 49- String in Js</div>
+        <div id="para49" class="minfoc">
+
+            <div class = "fisth"><h3>use of backticks(``)</h3></div>
+                <div class = "fisthx2"> backticks(``) can be used when both the ticks are used in line( " " and ' ' ) </div>
+
+                <div class = "fisthx2"> backticks(``) can also be used to add variables in string </div>
+
+                <ol class="fisth codecage">
+                    <li>var var1 = 23;</li>
+                    <li></li>
+                    <li>console.log(`value of ${var1}`);</li>
+                </ol>
+
+            <div class = "fisth"><h3>Find lenght of a string</h3></div>
+                <ol class="fisth codecage">
+                    <li>// use .lenght variable to get lenght of a string</li>
+                    <li>var str = "this wil call";</li>
+                    <li></li>
+                    <li>console.log(str.length);</li>
+                </ol>
+            
+            <div class = "fisth"><h3>Escape sequence in js</h3></div>
+                <ol class="fisth codecage">
+                    <li>'\n' is used to start from a new line</li>
+                    <li>'\t' is used to </li><!--not compeled -->
+                    <li>'\b' is used to </li><!--not compeled -->
+                    <li>'\\' is used to </li> <!--not compeled -->                     
+                </ol>
+
+            <div class = "fisth"><h3>Define a string</h3></div>
+                <ol class="fisth codecage">
+                    <li>var y = new string("this");</li>                     
+                </ol>
+               
+        </div>
+        <button id ="ep-49button" class = "buttons" onclick="hide('para49','ep-49button','ep-49a','sec49')"><a href="#para49" id = "ep-49a">Read more</a></button>
+    </section><!-- ep-49 ends -->
+
+    <section class = "sections" id = "sec50"><!--ep 50-->
+        <div id="ep-50" class="epnumtell">Episode 50- Functions of string</div>
+        <div id="para50" class="minfoc">
+
+            <div class = "fisth"><h3>Function for getting place or index number</h3></div>
+                <ol class="fisth codecage">
+                    <li>var str = "This is a string";</li>
+                    <li></li>
+                    <li>var pos = str.indexOf('is); // this will give output of 2 because the 'is' starts at 2place (remember index starts with 0) </li>
+                    <li></li>
+                    <li>var position = str.lastindexOf('is'); // this will give value of 9 as the 'is' starts at 9place from last</li>
+                    <li></li>
+                </ol>
+
+            <div class = "fisth"><h3>Functions for getting substring from a string</h3></div>
+                <ol class="fisth codecage">
+                    <li>var str = "this wil call";</li>
+                    <li>// First function</li>
+                    <li>var substr = str.slice(start,end); // function takes two index numbers and give a value of the string in the index</li>
+                    <li>// Second function</li>
+                    <li>substr = str.substring(start,end); // does the same but the differce is that this function will not take nevigitive value like other one</li>
+                    <li>// Third function</li>
+                    <li>str.substr(start,end); // it does the same <!--not compeled--></li>
+                    <li></li>
+                </ol>
+            
+            <div class = "fisth"><h3>Function to edit the strings</h3></div>
+                <ol class="fisth codecage">
+                    <li>var str = "this can be a turning point for me";</li>
+                    <li></li>
+                    <li>str.replace(a,b); // here  is the string 'a' should be replaced and string 'b' is string that will come in the place of replaced word</li> 
+                    <li>// point to be noted that this will not change the real string but it will return the value of replaced letters</li>
+                    <li></li>
+                    <li>// change the string's cases by</li>
+                    <li>str.toUpperCase(); // For making the cases to Upper</li>
+                    <li>str.toLowerCase(); // For making the cases to Lower</li>    
+                    <li></li>                 
+                </ol>
+
+            <div class = "fisth"><h3>Adding multipul strings</h3></div>
+                <ol class="fisth codecage">
+                    <li>var y = "why"</li>
+                    <li>var x = "is so?"</li> 
+                    <li></li>
+                    <li>var z = y.concat(x); // now y has a value of "why is so?"</li>
+                    <li>//this can be also done by adding the strings like this x + y it does the same</li>
+                    <li></li>   
+                </ol>
+
+            <div class = "fisth"><h3>Triming a string</h3></div>
+                <ol class="fisth codecage">
+                    <li>var y = "      this a str     with lots of spaces      ";</li>
+                    <li></li> 
+                    <li>y.trim(); // this will the spaces <b>only</b> at starting and ending of astring</li>
+                    <li></li>  
+                </ol>
+            
+            <div class = "fisth"><h3>Getting char/charcode in Js</h3></div>
+                <ol class="fisth codecage">
+                    <li>var str = "this the string";</li>
+                    <li></li> 
+                    <li>y.charAt(3); // will return 's' as it's in index position is 3 </li>
+                    <li>var pos = str[3]; // this will also reture sasme value as the upper line does</li>
+                    <li></li>
+                    <li>str.string.charCodeAt(index); //this will return something <!--not compeled--></li>
+                    <li></li>  
+                </ol>
+               
+        </div>
+        <button id ="ep-50button" class = "buttons" onclick="hide('para50','ep-50button','ep-50a','sec50')"><a href="#para50" id = "ep-50a">Read more</a></button>
+    </section><!-- ep-50 ends -->
+
+    <section class = "sections" id = "sec51"><!--ep 51-->
+        <div id="ep-51" class="epnumtell">Episode 51- If-else statements in Js</div>
+        <div id="para51" class="minfoc">
+
+            <div class = "fisth"><h3>what is const?</h3></div>
+                <ol class="fisth codecage">
+                    <li>const var1 = 56; // const var cannot be changed in the scirpt</li>
+                    <li></li>
+                </ol>
+
+            <div class = "fisth"><h3>If-else statements</h3></div>
+                <ol class="fisth codecage">
+                    <li>if(statement)// if the statement is true the follow code will be excute</li>
+                    <li>{</li>
+                    <li>    // code</li>
+                    <li>}</li>
+                    <li></li>
+                    <li>else if(satement) // if the statement is true the follow code will be excute</li>
+                    <li>{</li>
+                    <li>//code</li>
+                    <li>}</li>
+                    <li></li>
+                    <li>else //if none of the above statement are right than this code will run</li>
+                    <li>{</li>
+                    <li>//code</li>
+                    <li>}</li>
+                    <li></li>
+                </ol>
+
+            <div class = "fisth"><h3>Switch cases in Js</h3></div>
+                <ol class="fisth codecage">
+                    <li>switch(statement)// if the statement is true the follow code will be excute</li>
+                    <li>{</li>
+                    <li>case 45: // if statement is equal to 45 the follow code will excute</li>
+                    <li>// code</li>
+                    <li>break;</li>
+                    <li></li>
+                    <li>case 37:</li>
+                    <li>// code</li>
+                    <li>break;</li>
+                    <li></li>
+                    <li>defult: // if none of the above number match the statement the follow code will excute</li>
+                    <li> //code</li>
+                    <li>break;</li>
+                    <li></li>
+                    <li>}</li>
+                    <li></li>
+                </ol> 
+        </div>
+        <button id ="ep-51button" class = "buttons" onclick="hide('para51','ep-51button','ep-51a','sec51')"><a href="#para51" id = "ep-51a">Read more</a></button>
+    </section><!-- ep-51 ends -->
+
+    <section class = "sections" id = "sec52"><!--ep 52-->
+        <div id="ep-52" class="epnumtell">Episode 52- Objects and Arrary in Js</div>
+        <div id="para52" class="minfoc">
+
+            <div class = "fisth"><h3>Types of variable</h3></div>
+                <ol class ="fisth">
+                    <li>Primitive - basiclly int,float,string</li>
+                    <li>Refrence -  objects made in code</li>
+                    <div></div>
+                    <div> There are two speical type of variable null and undefined </div>
+                </ol>
+
+            <div class = "fisth"><h3>create Objects and array</h3></div>
+                <ol class="fisth codecage">
+                    <li>let epl = { // this how class are made </li>
+                    <li>name : "aavart"</li>
+                    <li>work: "game devloper"</li>
+                    <li>want: "computer"</li>
+                    <li>}</li>
+                    <li></li>
+                    <li>let arrary = [1,2,3,"aavart"]; // array are mades</li>
+                    <li>let arrary2 = new array(9,7,5,0);// other way to define a array</li>
+                    <li></li>
+                </ol>
+            
+            <div class = "fisth"><h3>Edit a array</h3></div>
+                <ol class="fisth codecage">
+                    <li>let str = [1,8,6,0]; // array with unordered elements</li>
+                    <li></li>
+                    <li> let new = str.sort(); // this function is used to arrange the elements asanding order</li> 
+                    <li>// this will not change the real array</li>
+                    <li></li>                 
+                </ol>
+
+            <div class = "fisth"><h3>Excess variables in class</h3></div>
+                <ol class="fisth codecage">
+                    <li>let y = {name : "van" number : 2 }</li>
+                    <li></li> 
+                    <li>let names = y.names; // this will only vaied when the key does have spaces </li>
+                    <li>let mames2 = y.['name']; // this is the another way to to get value of a class variable</li>
+                    <li>//this can be also done by adding the strings like this x + y it does the same</li>
+                    <li></li>   
+                </ol>
+
+            <div class = "fisth"><h3>more on array</h3></div>
+                <ol class="fisth codecage">
+                    <li>var y = new array[32];// for make a array with 32 elements</li>
+                    <li></li>  
+                </ol>
+               
+        </div>
+        <button id ="ep-52button" class = "buttons" onclick="hide('para52','ep-52button','ep-52a','sec52')"><a href="#para52" id = "ep-52a">Read more</a></button>
+    </section><!-- ep-52 ends -->
+
+    <section class = "sections" id = "sec43"><!--ep 53-->
+        <div id="ep-53" class="epnumtell">Episode 53- Functions in Js</div>
+        <div id="para53" class="minfoc">
+
+            <div class = "fisth"><h3>making a function</h3></div>
+                <ol class ="fisth codecage">
+                    <li>function nameof function(parmeters)</li>
+                    <li>{</li>
+                    <li>//code</li>
+                    <li>}</li>
+                    <li></li>
+                    <li>// give a defult value to a parimeter like this</li>
+                    <li>function name(age = 5)</li>
+                    <li>{</li>
+                    <li>//code</li>
+                    <li>}</li>
+                    <li></li>
+                    <li>// within the function you can return a value</li>
+                    <li>function add(a,b)</li>
+                    <li>{</li>
+                    <li>let d = a+ b;</li>
+                    <li>return d;</li>
+                    <li>}</li>
+                    <li></li>
+                </ol>
+
+        </div>
+        <button id ="ep-53button" class = "buttons" onclick="hide('para53','ep-53button','ep-53a','sec53')"><a href="#para53" id = "ep-53a">Read more</a></button>
+    </section><!-- ep-53 ends -->
+
+    <section class = "sections" id = "sec54"><!--ep 54-->
+        <div id="ep-54" class="epnumtell">Episode 54- Functions for websites</div>
+        <div id="para54" class="minfoc">
+
+            <div class = "fisth"><h3>Alert() functions in Js</h3></div>
+                <ol class ="fisth codecage">
+                    <li>Alert("this is the use of a Alert function");</li>
+                    <li>// a message will pop-up saying the string</li>                    
+                    <li></li>
+                </ol>
+ 
+            <div class = "fisth"><h3>prompt() functions in Js</h3></div>
+                <ol class ="fisth codecage">
+                    <li>let s = prompt("this is the use of a prompt function","kckc");</li>
+                    <li>// a message will asking a question same as string</li>                    
+                    <li>// s will be equal to the user's answer and <b>defult answer is kckc</b></li>
+                    <li></li>
+                </ol>
+
+            <div class = "fisth"><h3>confirm() functions in Js</h3></div>
+                <ol class ="fisth codecage">
+                    <li>let s = confirm("this is the use of a prompt function");</li>
+                    <li>// a message will asking a question same as string</li>                    
+                    <li>// s will be true if user tap yes otherwise false</li>
+                    <li></li>
+                </ol>
+
+        </div>
+        <button id ="ep-54button" class = "buttons" onclick="hide('para54','ep-54button','ep-54a','sec54')"><a href="#para54" id = "ep-54a">Read more</a></button>
+    </section><!-- ep-54 ends -->
+
+    <section class = "sections" id = "sec55"><!--ep 55-->
+        <div id="ep-55" class="epnumtell">Episode 55- Loops in Js</div>
+        <div id="para55" class="minfoc">
+
+            <div class = "fisth"><h3>Types of loops in Js</h3></div>
+                <ol class ="fisth">
+                    There are four types of loops in Js
+                    <li>for Loops</li>                    
+                    <li>foreach Loops</li>
+                    <li>while Loops</li>   
+                    <li>Do-while Loops</li>                 
+                </ol>
+ 
+            <div class = "fisth"><h3>For loops</h3></div>
+                <ol class ="fisth codecage">
+                    <li>// <b>Let i = 0;</b> is code that will run first time the loop will start </li>
+                    <li>// <b>i > 5;</b> is the code that will be checked everytime the loop loops and the condition is false than the loop will stop</li>
+                    <li>// <b>i++</b> is the code that will run everytime loops loops but not the first time</li>
+                    <li>for(let i = 0; i > 5;i++)</li>
+                    <li>{</li>                    
+                    <li>//code</li>
+                    <li>}</li>
+                    <li></li>
+                </ol>
+
+            <div class = "fisth"><h3>Foreach loop</h3></div>
+                <ol class ="fisth codecage">                   
+                    <li>let friends = ["pc","moblie","?i!i","redmi","ps3","gd101","gta v","the Last of Us","God of war"];</li>
+                    <li></li>
+                    <li>friends.foreach(function f()</li>
+                    <li>{</li>
+                    <li>//code that should loop</li>
+                    <li>});</li>
+                    <li>// This is the stex of a foreach loop</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+
+            <div class = "fisth"><h3>For of  and for in loops</h3></div>
+                <ol class ="fisth codecage">
+                    <li>let friends = ["pc","moblie","?i!i","redmi","ps3","gd101","gta v","the Last of Us","God of war"];</li>
+                    <li></li>                    
+                    <li>for(elements of friends)</li>
+                    <li>{</li>
+                    <li>// console.log(elements);</li>
+                    <li>}</li>
+                    <li></li>
+                    <li>// This will loops according to elements of friends</li>
+                    <li></li>
+                    <li>let person = {name : "d",class:"10",}</li>
+                    <li></li>
+                    <li>for(key in person)</li>
+                    <li>{</li>
+                    <li>//code</li>
+                    <li>}</li>
+                    <li>// This will be used for classes</li>
+                    <li></li>
+                </ol>
+           <div class = "fisth"><h3>While and Do-while loops</h3></div>
+                <ol class ="fisth codecage">
+                    <li>let i = 0;</li>                    
+                    <li>while(i<1000)</li>
+                    <li>{</li>
+                    <li>// console.log(i);</li>
+                    <li>}</li>
+                    <li>// The while loop will loop until the the given statements is false</li>
+                    <li></li>
+                    <li>//Do-while loops</li>
+                    <li></li>
+                    <li>do</li>
+                    <li>{</li>
+                    <li>//code</li>
+                    <li>}while(key in person)</li>
+                    <li>// Do-while loops are same as while loop but Do-while will first run the code and than chack statment so even is if the statement is fasle the Do-while loop will excute code one time</li>
+                    <li></li>
+                </ol>
+
+
+        </div>
+        <button id ="ep-55button" class = "buttons" onclick="hide('para55','ep-55button','ep-55a','sec55')"><a href="#para55" id = "ep-55a">Read more</a></button>
+    </section><!-- ep-55 ends -->
+
+    <section class = "sections" id = "sec56"><!--ep 56-->
+        <div id="ep-56" class="epnumtell">Episode 56- Getting a referance of html and css in Js</div>
+        <div id="para56" class="minfoc">
+
+            <div class = "fisth"><h3>.getElementById() and .getElementByClass()</h3></div>
+                <ol class ="fisth codecage">
+                    <li>let sd = document.getElementById(//id here\\);</li>
+                    <li>// Now sd has the information of the element</li>                    
+                    <li></li>
+                    <li>let sc = doument.getElementById(//class here\\);</li>
+                    <li>// Now sc has the information of the class</li>
+                    <li></li>
+                    <li></li>
+                </ol>
+ 
+            <div class = "fisth"><h3>use of .innerHTML, document.querySelector(), document.queySelectorAll()</h3></div>
+                <ol class ="fisth codecage">
+                    <li>// We can use .innerHTML to excess or change the html of the element</li>
+                    <li>sd.innerHTML = "&lt;h1&gt; class 10 &lt;h1&gt;"</li>
+                    <li></li>
+                    <li>// use this code to change or read the css of the class </li>
+                    <li>let c = document.querySelector(".conter");</li>
+                    <li></li>
+                    <li>// use this code to change or read the css of the all type of class</li>
+                    <li>let ais = document.querySelector(".list &gt;ul");</li>
+                    <li>this will give the css of all the tag in the html in this case the all ul tages will be trageted and the greater than sign is used to say of this thing</li>
+                    <li></li>
+                </ol>
+        </div>
+        <button id ="ep-56button" class = "buttons" onclick="hide('para56','ep-56button','ep-56a','sec56')"><a href="#para56" id = "ep-56a">Read more</a></button>
+    </section><!-- ep-56 ends -->
+
+    <section class = "sections" id = "sec57"><!--ep 57-->
+        <div id="ep-57" class="epnumtell">Episode 57- Brower events with js</div>
+        <div id="para57" class="minfoc">
+
+            <div class = "fisth"><h3>Types of browers event</h3></div>
+                <ol class ="fisth">
+                    <li>click</li>
+                    <li>context menu</li>                    
+                    <li>mouse over</li>
+                    <li>mouse out</li>
+                    <li>mouse down </li>
+                    <li>mouse up</li>                    
+                    <li>mouse move</li>
+                    <li>submit</li>
+                    <li>focus</li>
+                    <li>not compled </li>                   
+                </ol>
+ 
+            <div class = "fisth"><h3>How to set events </h3></div>
+                <ol class ="fisth codecage">
+                    <li>&lt;button onclick = "hide()&gt;&lt;/button&gt;</li>
+                    <li>// the hide is a functions </li>                    
+                    <li></li>
+                    <li>// other way to do this is</li>
+                    <li>para.addeventListener('mouseover',hide());</li>
+                    <li></li>
+                </ol>
+
+        </div>
+        <button id ="ep-57button" class = "buttons" onclick="hide('para57','ep-57button','ep-57a','sec57')"><a href="#para57" id = "ep-57a">Read more</a></button>
+    </section><!-- ep-57 ends -->
+
+    <section class = "sections" id = "sec58"><!--ep 58-->
+        <div id="ep-58" class="epnumtell">Episode 58- Timeout functions in Js</div>
+        <div id="para58" class="minfoc">
+
+            <div class = "fisth"><h3>There are four types of function </h3></div>
+                <ol class ="fisth">
+                    <li>SetTimeout</li>
+                    <li>ClearTimeout</li>                    
+                    <li>Setinterval</li>
+                    <li>Clearinterval</li>                
+                </ol>
+ 
+            <div class = "fisth"><h3>SetTimeout</h3></div>
+                <ol class ="fisth codecage">
+                    <li>&lt;button onclick = "hide()&gt;&lt;/button&gt;</li>
+                    <li>// the hide is a functions </li>                    
+                    <li></li>
+                    <li>// other way to do this is</li>
+                    <li>para.addeventListener('mouseover',hide());</li>
+                    <li></li>
+                </ol>
+
+        </div>
+        <button id ="ep-58button" class = "buttons" onclick="hide('para58','ep-58button','ep-58a','sec58')"><a href="#para58" id = "ep-58a">Read more</a></button>
+    </section><!-- ep-58 ends -->
+
+    <script src="jsnote.js"></script>
+</body>
+</html>

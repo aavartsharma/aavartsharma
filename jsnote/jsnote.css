@@ -1,0 +1,121 @@
+body
+{
+    background-color:black /*#ffc700*/  /*#00ffe5 blue color*/;
+    color: #c9c9c9;
+}
+
+#imgjs img
+{    
+    height: 321px;
+    width: 344px;
+}
+
+#imgjs 
+{
+    display : flex;
+    justify-content : center;
+    margin-top: 69px;
+}
+
+/*navmenu*/
+#nav
+{
+    display: flex;
+    background-color: #a26fff;
+    border-radius: 22px;
+    
+}
+
+#nav li
+{
+    list-style: none;
+    color:blueviolet;
+    padding:12px 30px;
+    padding-right: 12px;
+}
+
+#nav li a
+{
+    text-decoration: none;
+}
+
+.minfoc
+{
+    display: none;
+    background-color : #00ff95;
+    color : #ff00eb;
+    font-family: 'Comfortaa', cursive;
+    padding : 3px 0px;
+}
+
+.epnumtell
+{
+    font-family: 'Comfortaa', cursive;
+    margin : 6px 8px;
+    color: #37ff7f;
+}
+
+h1
+{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    color: red;
+}
+
+.buttons
+{
+    background : none;
+    border : none;
+    text-decoration: underline;
+    font-family: 'Comfortaa', cursive;
+}
+
+.buttons a
+{
+    color : black;
+}
+
+.fisth
+{
+    margin : 8px 25px;
+}
+
+.sections
+{
+    display: flex;
+    margin : 22px 80px;
+    background-color : #0600ff;
+}
+
+.fisthx2
+{
+    margin : 20px 50px;
+}
+
+.codecage
+{
+    border : 6px solid #001bff;
+    background-color : #53f7ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
