@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning c#
 - 💞️ I’m looking to collaborate on game projects
 - 📫 How to reach me by my website
-       websites.aavartsharma.repl.co
+       aavartsharma.github.io/personal-websites/
 
 
 
